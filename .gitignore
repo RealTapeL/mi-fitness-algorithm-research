@@ -1,0 +1,47 @@
+# Operating system and editor files
+.DS_Store
+._*
+**/._*
+.idea/
+.vscode/
+
+# Local credentials and signing material
+.env
+.env.*
+*.pem
+*.p12
+*.keystore
+*.jks
+
+# Private exported data; only the reviewed weekly aggregate is public
+/data/*
+!/data/public_weekly_summary.csv
+
+# APKs, firmware, extracted binaries, and dependency caches
+*.apk
+*.aab
+*.so
+*.jar
+*.zip
+*.xz
+node_modules/
+**/node_modules/
+/work/extracted/
+/work/tools/
+/work/rea/
+
+# Local reverse-engineering clients, logs, and scratch outputs
+/work/*
+!/work/mi_band8_pro_analysis.md
+!/work/jadx/
+
+# Raw JADX scratch output; retain only reviewed source snapshots and summaries
+/work/jadx/*
+!/work/jadx/evidence/
+!/work/jadx/086-get_method_body-YRNDatabaseModule-runAggregateDatabase.json
+/work/jadx/evidence/*
+!/work/jadx/evidence/*.java
+!/work/jadx/evidence/*.txt
+
+# Generated output folders
+/outputs/

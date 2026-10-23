@@ -1,0 +1,17 @@
+Static symbol evidence for libHealthCare.so
+Tools: file, readelf (ELF header), nm -D --defined-only --demangle; this is export-table evidence, not function-body disassembly.
+
+$ file work/extracted/libHealthCare.so
+ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=d009e8405d47fdbd535a9ade85ec2dafdd535915, for Android 21, built by NDK r20 (5594570), stripped
+
+Selected defined dynamic symbols:
+00000000001787b0 T Java_com_huami_algo_healthcare_HealthCare_GetHealthScore
+000000000017db84 T Java_com_huami_algo_healthcare_HealthCare_getHRVRmssd
+000000000017c8c0 T Java_com_huami_algo_healthcare_HealthCare_getHRVScore
+000000000007b14c T Healthcare::GetHealthScore(int&, int&, int&, int&, int&, int&, int&, int&)
+0000000000130594 T HealthScoring::getHRVScore()
+00000000001305e8 T HealthScoring::getStepsScore()
+000000000012e474 T HealthScoring::calcSportScore(std::__ndk1::vector<int, std::__ndk1::allocator<int> >, std::__ndk1::vector<double, std::__ndk1::allocator<double> >)
+00000000000ce8a0 T HRV::compute_hrv()
+00000000000cbf74 T HRV::compute_hrv_time()
+00000000000cc6fc T HRV::compute_hrv_frequency()

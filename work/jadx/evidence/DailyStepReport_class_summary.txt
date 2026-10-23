@@ -1,0 +1,55 @@
+JADX 1.5.6 class summary from Android APK 3.59.1; source: 019-summary-DailyStepReport.json
+Class: com.xiaomi.fit.fitness.export.data.aggregation.DailyStepReport
+Fields:
+  active: ActiveStageItem>
+  calories: int
+  distance: int
+  floors: int
+  maxEndTime: Long
+  minStartTime: Long
+  sid: String
+  sidList: String>
+  stepRecords: StepRecord>
+  steps: int
+  tag: String
+  time: long
+Methods:
+  <init>(long, String): void
+  <init>(long, String, int, int, int, StepRecord>): void
+  component6(): StepRecord>
+  copy(long, String, int, int, int, StepRecord>): DailyStepReport
+  copy$default(DailyStepReport, long, String, int, int, int, List, int, Object): DailyStepReport
+  equals(Object): boolean
+  getActiveStageList(): ActiveStageItem>
+  getAvgDistancePerDay(): int
+  getAvgStepsPerDay(): int
+  getCalories(): int
+  getCalories(): int
+  getDistance(): int
+  getDistance(): int
+  getFloors(): int
+  getMaxEndTime(): Long
+  getMinStartTime(): Long
+  getSid(): String
+  getSidList(): String>
+  getSourceData(): int
+  getSourceSidList(): String>
+  getStepRecords(): StepRecord>
+  getSteps(): int
+  getSteps(): int
+  getTag(): String
+  getTag(): String
+  getTime(): long
+  getTime(): long
+  hashCode(): int
+  isEmpty(): boolean
+  isValidate(): boolean
+  setActiveStageList(ActiveStageItem>): void
+  setFloors(int): void
+  setMaxEndTime(Long): void
+  setMinStartTime(Long): void
+  setSid(String): void
+  setSidList(String>): void
+  setTime(long): void
+  simpleInfo(): String
+  toString(): String

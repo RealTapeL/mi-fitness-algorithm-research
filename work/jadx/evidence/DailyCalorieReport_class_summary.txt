@@ -1,0 +1,42 @@
+JADX 1.5.6 class summary from Android APK 3.59.1; source: 020-summary-DailyCalorieReport.json
+Class: com.xiaomi.fit.fitness.export.data.aggregation.DailyCalorieReport
+Fields:
+  calRecords: CalorieRecord>
+  calories: int
+  maxEndTime: Long
+  minStartTime: Long
+  sid: String
+  sidList: String>
+  tag: String
+  time: long
+Methods:
+  <init>(long, String, int, CalorieRecord>): void
+  <init>(String, long): void
+  component4(): CalorieRecord>
+  copy(long, String, int, CalorieRecord>): DailyCalorieReport
+  copy$default(DailyCalorieReport, long, String, int, List, int, Object): DailyCalorieReport
+  equals(Object): boolean
+  getAvgCaloriePerDay(): int
+  getCalRecords(): CalorieRecord>
+  getCalories(): int
+  getCalories(): int
+  getMaxEndTime(): Long
+  getMinStartTime(): Long
+  getSid(): String
+  getSidList(): String>
+  getSourceData(): int
+  getSourceSidList(): String>
+  getTag(): String
+  getTag(): String
+  getTime(): long
+  getTime(): long
+  hashCode(): int
+  isEmpty(): boolean
+  isValidate(): boolean
+  setMaxEndTime(Long): void
+  setMinStartTime(Long): void
+  setSid(String): void
+  setSidList(String>): void
+  setTime(long): void
+  simpleInfo(): String
+  toString(): String
